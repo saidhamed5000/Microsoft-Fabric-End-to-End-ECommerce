@@ -320,6 +320,7 @@ Microsoft-Fabric-End-To-End-ECommerce
 - CI/CD via Azure DevOps
 
 ---
+https://github.com/user-attachments/assets/70c23dd5-6a5a-42cf-9330-484d0ddecbc7
 
 ## 👨‍💻 Author
 
