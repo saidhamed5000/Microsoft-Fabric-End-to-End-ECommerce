@@ -4,14 +4,19 @@
 
 
 ---
-
 ## 📌 Project Overview
 
-This project demonstrates a complete **Enterprise End-to-End Analytics Platform** built entirely on **Microsoft Fabric** — from raw CSV files to a fully automated Business Intelligence solution.
+Most data analytics projects rely on disjointed tools (like Python, SQL, and Power BI), leading to data silos, complex maintenance, and data duplication. 
 
-The solution follows the **Medallion Architecture (Bronze → Silver → Gold)** and integrates Fabric's core services: Lakehouse, PySpark Notebooks, Dataflow Gen2, Data Warehouse, Semantic Model, Power BI, and Data Pipeline orchestration.
+This project demonstrates a complete **Enterprise End-to-End Analytics Platform** built entirely on **Microsoft Fabric** to solve these exact challenges. It showcases the true power of a unified data platform by seamlessly integrating:
+- **Data Factory** (Data Ingestion & Orchestration)
+- **Data Engineering** (Processing with PySpark)
+- **Data Warehousing** (Relational Modeling)
+- **Business Intelligence** (Power BI & Direct Lake)
 
-Built as hands-on preparation for the **DP-600: Implementing Analytics Solutions Using Microsoft Fabric** certification.
+By working within a single workspace and utilizing **OneLake**, this solution ensures **Zero Data Duplication**. The data is stored once, and all personas—from Data Engineers to BI Developers—collaborate on the exact same dataset without breaking connections or moving data around.
+
+The solution follows the **Medallion Architecture (Bronze → Silver → Gold)** — taking raw CSV files and transforming them into a fully automated Business Intelligence solution. Built as hands-on preparation for the **DP-600: Implementing Analytics Solutions Using Microsoft Fabric** certification.
 
 ---
 
@@ -134,7 +139,8 @@ CSV Files (9 tables)
 | Business Transformation | Dataflow Gen2 (Power Query) |
 | Data Warehouse | Fabric Warehouse |
 | Query Layer | SQL Endpoint |
-| Modeling | Semantic Model (Direct Lake), DAX |
+| Modeling | Semantic Model (Direct Lake), DAX |<img width="1907" height="862" alt="5" src="https://github.com/user-attachments/assets/21aac59c-0eae-43fa-bccb-4eef831bc6b6" />
+
 | Visualization | Power BI Desktop & Service |
 | Orchestration | Data Pipeline |
 | Version Control | Git Integration (GitHub) |
@@ -211,6 +217,9 @@ Every cleaning decision below is based on an **actual profiling pass** over the 
 ## 📊 Star Schema
 
 ```
+
+<img width="1907" height="862" alt="5" src="https://github.com/user-attachments/assets/a5d67f6b-dbf0-4672-aa26-ee88cb315bd9" />
+
                     DimDate
                        │
 DimCustomer ── FactOrderItems ── DimProduct
@@ -236,32 +245,12 @@ Key DAX measures implemented across the semantic model:
 
 ---
 
-## 📊 Dashboard Pages
-
-✅ Executive Dashboard  ✅ Sales Analysis  ✅ Customer Analysis  ✅ Product Analysis
-✅ Seller Analysis  ✅ Payment Analysis  ✅ Delivery Performance  ✅ Forecast
-
----
 
 ## ⚙️ Automation Pipeline
 
 ```
-Notebook (Cleaning)
-        │
-        ▼
-Dataflow Gen2 (Gold Staging)
-        │
-        ▼
-Warehouse Refresh
-        │
-        ▼
-Semantic Model Refresh
-        │
-        ▼
-Power BI Report (auto-updated)
-```
 
-Scheduled daily at 2:00 AM, with automatic failure notifications via Teams/Outlook.
+<img width="1912" height="866" alt="6" src="https://github.com/user-attachments/assets/ca4da589-25c1-45bd-8011-5e7b8b72cd51" />
 
 ---
 
@@ -299,16 +288,25 @@ Microsoft-Fabric-End-To-End-ECommerce
 
 ## 📷 Project Screenshots
 
-| | |
 |---|---|
-| **Workspace** | `screenshots/workspace.png` |
-| **Lakehouse** | `screenshots/lakehouse.png` |
-| **Notebook** | `screenshots/notebook.png` |
-| **Dataflow Gen2** | `screenshots/dataflow.png` |
-| **Warehouse** | `screenshots/warehouse.png` |
-| **Semantic Model** | `screenshots/semantic-model.png` |
-| **Pipeline** | `screenshots/pipeline.png` |
-| **Executive Dashboard** | `screenshots/executive-dashboard.png` |
+| **Workspace** | 
+| **Lakehouse** | 
+| **Notebook** | 
+| **Dataflow Gen2** 
+| **Warehouse** |
+| **Semantic Model
+| **Pipeline** |
+| **Executive Dashboard** 
+
+<img width="1902" height="851" alt="1" src="https://github.com/user-attachments/assets/70c23dd5-6a5a-42cf-9330-484d0ddecbc7" />
+<img width="1912" height="875" alt="2" src="https://github.com/user-attachments/assets/83afa30f-244c-4cb0-b40b-db89e846bb9d" />
+<img width="1912" height="870" alt="3" src="https://github.com/user-attachments/assets/8148732c-be75-428f-97b0-75445efae1c7" />
+<img width="1901" height="875" alt="4" src="https://github.com/user-attachments/assets/6344fba9-a233-4308-9b3b-3160774c79b6" />
+<img width="1907" height="862" alt="5" src="https://github.com/user-attachments/assets/ad5af92d-017d-4d68-b6ca-21955037a872" />
+<img width="1912" height="866" alt="6" src="https://github.com/user-attachments/assets/b65b9a76-4a21-4258-b319-a8e7374739a5" />
+<img width="1915" height="927" alt="7" src="https://github.com/user-attachments/assets/08fe58dd-bf38-4648-a9fb-7bfb22b57fea" />
+<img width="1917" height="902" alt="8" src="https://github.com/user-attachments/assets/23de3161-9d59-4cf5-bd72-04fa9793b446" />
+<img width="1915" height="912" alt="9" src="https://github.com/user-attachments/assets/c540e659-7c51-4e4c-8353-c7dfbcc6e033" />
 
 ---
 
