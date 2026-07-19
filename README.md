@@ -320,7 +320,6 @@ Microsoft-Fabric-End-To-End-ECommerce
 - CI/CD via Azure DevOps
 
 ---
-https://github.com/user-attachments/assets/70c23dd5-6a5a-42cf-9330-484d0ddecbc7
 
 ## 👨‍💻 Author
 
@@ -339,5 +338,6 @@ https://github.com/user-attachments/assets/70c23dd5-6a5a-42cf-9330-484d0ddecbc7
 - Email: saidhamed5000@gmail.com
 
 ---
+https://github.com/saidhamed5000/Microsoft-Fabric-End-to-End-ECommerce/blob/main/screenshots/1.png
 
 ⭐ If you found this project useful, consider giving it a star.
