@@ -243,16 +243,12 @@ Key DAX measures implemented across the semantic model:
 - Average Delivery Days, Late Delivery Rate
 - Total Payment Value, Average Installments, % Credit Card Payments
 - Average Review Score, % Negative Reviews
-
----
-
-
+----
 ## ⚙️ Automation Pipeline
-
 
 ![Screenshot](screenshots/6.png)
 
-
+------
 
 ## 📂 Repository Structure
 
@@ -285,31 +281,23 @@ Microsoft-Fabric-End-To-End-ECommerce
 ```
 
 ---
-
 ## 📷 Project Screenshots
 
+| Workspace | Lakehouse |
 |---|---|
-| **Workspace** | 
-| **Lakehouse** | 
-| **Notebook** | 
-| **Dataflow Gen2** 
-| **Warehouse** |
-| **Semantic Model
-| **Pipeline** |
-| **Executive Dashboard** 
+| ![Workspace](screenshots/1.png) | ![Lakehouse](screenshots/2.png) |
 
-![Screenshot](screenshots/1.png)
-![Screenshot](screenshots/2.png)
-![Screenshot](screenshots/3.png)
-![Screenshot](screenshots/4.png)
-![Screenshot](screenshots/5.png)
-![Screenshot](screenshots/6.png)
-![Screenshot](screenshots/7.png)
-![Screenshot](screenshots/8.png)
-![Screenshot](screenshots/9.png)
+| Notebook | Dataflow Gen2 |
+|---|---|
+| ![Notebook](screenshots/3.png) | ![Dataflow](screenshots/4.png) |
 
+| Warehouse | Semantic Model |
+|---|---|
+| ![Warehouse](screenshots/5.png) | ![Semantic Model](screenshots/6.png) |
 
----
+| Pipeline | Executive Dashboard |
+|---|---|
+| ![Pipeline](screenshots/7.png) | ![Executive Dashboard](screenshots/8.png) |
 
 ## 🚀 Future Enhancements
 
