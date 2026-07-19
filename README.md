@@ -250,8 +250,7 @@ Key DAX measures implemented across the semantic model:
 
 ```
 
-<img width="1912" height="866" alt="6" src="https://github.com/user-attachments/assets/ca4da589-25c1-45bd-8011-5e7b8b72cd51" />
-
+![ ](screenshots/6.PNG)
 ---
 
 ## 📂 Repository Structure
@@ -338,6 +337,5 @@ Microsoft-Fabric-End-To-End-ECommerce
 - Email: saidhamed5000@gmail.com
 
 ---
-https://github.com/saidhamed5000/Microsoft-Fabric-End-to-End-ECommerce/blob/main/screenshots/1.png
 
 ⭐ If you found this project useful, consider giving it a star.
