@@ -248,10 +248,11 @@ Key DAX measures implemented across the semantic model:
 
 ## ⚙️ Automation Pipeline
 
-```
 
 ![Screenshot](screenshots/6.png)
----
+
+![Automation Pipeline](screenshots/6.png)
+
 
 ## 📂 Repository Structure
 
