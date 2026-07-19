@@ -1,15 +1,7 @@
 # 🚀 Microsoft Fabric End-to-End E-Commerce Analytics Platform
 
-<p align="center">
+<img width="447" height="447" alt="images" src="https://github.com/user-attachments/assets/09e1ed7e-c49c-4f47-873f-4ed4f05f2c2f" />
 
-![Fabric](https://img.shields.io/badge/Microsoft-Fabric-742774?style=for-the-badge)
-![Power BI](https://img.shields.io/badge/Power-BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![DP-600](https://img.shields.io/badge/Prep-DP--600-0078D4?style=for-the-badge)
-
-</p>
 
 ---
 
