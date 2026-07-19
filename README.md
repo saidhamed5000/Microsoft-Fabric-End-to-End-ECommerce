@@ -250,8 +250,7 @@ Key DAX measures implemented across the semantic model:
 
 ```
 
-![ ](screenshots/6.PNG)
----
+![Screenshot](screenshots/6.png)---
 
 ## 📂 Repository Structure
 
