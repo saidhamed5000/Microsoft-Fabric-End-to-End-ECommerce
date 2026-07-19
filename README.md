@@ -216,9 +216,10 @@ Every cleaning decision below is based on an **actual profiling pass** over the 
 
 ## 📊 Star Schema
 
-```
 
-<img width="1907" height="862" alt="5" src="https://github.com/user-attachments/assets/a5d67f6b-dbf0-4672-aa26-ee88cb315bd9" />
+![Screenshot](screenshots/5.png)
+
+
 
                     DimDate
                        │
@@ -251,7 +252,6 @@ Key DAX measures implemented across the semantic model:
 
 ![Screenshot](screenshots/6.png)
 
-![Automation Pipeline](screenshots/6.png)
 
 
 ## 📂 Repository Structure
@@ -298,15 +298,16 @@ Microsoft-Fabric-End-To-End-ECommerce
 | **Pipeline** |
 | **Executive Dashboard** 
 
-<img width="1902" height="851" alt="1" src="https://github.com/user-attachments/assets/70c23dd5-6a5a-42cf-9330-484d0ddecbc7" />
-<img width="1912" height="875" alt="2" src="https://github.com/user-attachments/assets/83afa30f-244c-4cb0-b40b-db89e846bb9d" />
-<img width="1912" height="870" alt="3" src="https://github.com/user-attachments/assets/8148732c-be75-428f-97b0-75445efae1c7" />
-<img width="1901" height="875" alt="4" src="https://github.com/user-attachments/assets/6344fba9-a233-4308-9b3b-3160774c79b6" />
-<img width="1907" height="862" alt="5" src="https://github.com/user-attachments/assets/ad5af92d-017d-4d68-b6ca-21955037a872" />
-<img width="1912" height="866" alt="6" src="https://github.com/user-attachments/assets/b65b9a76-4a21-4258-b319-a8e7374739a5" />
-<img width="1915" height="927" alt="7" src="https://github.com/user-attachments/assets/08fe58dd-bf38-4648-a9fb-7bfb22b57fea" />
-<img width="1917" height="902" alt="8" src="https://github.com/user-attachments/assets/23de3161-9d59-4cf5-bd72-04fa9793b446" />
-<img width="1915" height="912" alt="9" src="https://github.com/user-attachments/assets/c540e659-7c51-4e4c-8353-c7dfbcc6e033" />
+![Screenshot](screenshots/1.png)
+![Screenshot](screenshots/2.png)
+![Screenshot](screenshots/3.png)
+![Screenshot](screenshots/4.png)
+![Screenshot](screenshots/5.png)
+![Screenshot](screenshots/6.png)
+![Screenshot](screenshots/7.png)
+![Screenshot](screenshots/8.png)
+![Screenshot](screenshots/9.png)
+
 
 ---
 
