@@ -1,5 +1,5 @@
 # 🚀 Enterprise End-to-End Analytics Platform using Microsoft Fabric
-<img width="1536" height="290" alt="Screenshot 2026-07-21 014124" src="https://github.com/user-attachments/assets/03e566f2-7437-4f69-ace9-33f0d0df9bd6" />
+<img width="100%" alt="Screenshot 2026-07-21 014124" src="https://github.com/user-attachments/assets/03e566f2-7437-4f69-ace9-33f0d0df9bd6" />
 ### Medallion Architecture | Lakehouse | Data Warehouse | Semantic Model | Power BI
 
 **Enterprise Data Engineering & Business Intelligence Project using Microsoft Fabric, PySpark & Power BI**
