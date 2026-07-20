@@ -1,0 +1,105 @@
+/* =====================================================================
+   Measures.dax
+   Sales_SemanticModel - All DAX measures used across the Power BI report
+   Organize into a "_Measures" display folder / table when adding to
+   the model for a cleaner Fields pane.
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   Sales (table: FactOrderItems)
+   --------------------------------------------------------------------- */
+
+Total Sales = SUM(FactOrderItems[revenue])
+
+Total Orders = DISTINCTCOUNT(FactOrderItems[order_id])
+
+Total Items Sold = COUNT(FactOrderItems[order_item_id])
+
+AOV = DIVIDE([Total Sales], [Total Orders])
+
+Total Freight = SUM(FactOrderItems[freight_value])
+
+Freight % of Revenue = DIVIDE([Total Freight], [Total Sales])
+
+/* ---------------------------------------------------------------------
+   Time Intelligence (table: FactOrderItems, needs DimDate[full_date]
+   marked as the Date table)
+   --------------------------------------------------------------------- */
+
+Sales YTD = TOTALYTD([Total Sales], DimDate[full_date])
+
+Sales MTD = TOTALMTD([Total Sales], DimDate[full_date])
+
+Sales PY = CALCULATE([Total Sales], SAMEPERIODLASTYEAR(DimDate[full_date]))
+
+Sales Growth % = DIVIDE([Total Sales] - [Sales PY], [Sales PY])
+
+Sales MoM % =
+VAR PrevMonth = CALCULATE([Total Sales], DATEADD(DimDate[full_date], -1, MONTH))
+RETURN DIVIDE([Total Sales] - PrevMonth, PrevMonth)
+
+/* ---------------------------------------------------------------------
+   Delivery (table: silver_orders - add this table to the model first)
+   --------------------------------------------------------------------- */
+
+Avg Delivery Days = AVERAGE(silver_orders[DeliveryDays])
+
+Late Delivery Rate =
+DIVIDE(
+    CALCULATE(COUNTROWS(silver_orders), silver_orders[DeliveryStatus] = "Late"),
+    COUNTROWS(silver_orders)
+)
+
+Avg Late Days =
+CALCULATE(AVERAGE(silver_orders[LateDeliveryDays]), silver_orders[DeliveryStatus] = "Late")
+
+/* ---------------------------------------------------------------------
+   Customer (table: DimCustomer)
+   --------------------------------------------------------------------- */
+
+Total Customers = DISTINCTCOUNT(DimCustomer[customer_id])
+
+Repeat Customer Rate =
+VAR Repeats =
+    CALCULATE(
+        DISTINCTCOUNT(DimCustomer[customer_id]),
+        FILTER(VALUES(DimCustomer[customer_id]), CALCULATE(COUNTROWS(FactOrderItems)) > 1)
+    )
+RETURN DIVIDE(Repeats, [Total Customers])
+
+/* ---------------------------------------------------------------------
+   Payments (table: FactPayments)
+   --------------------------------------------------------------------- */
+
+Total Payment Value = SUM(FactPayments[payment_value])
+
+Avg Installments = AVERAGE(FactPayments[payment_installments])
+
+% Credit Card Payments =
+DIVIDE(
+    CALCULATE(COUNTROWS(FactPayments), FactPayments[payment_type] = "credit_card"),
+    COUNTROWS(FactPayments)
+)
+
+/* ---------------------------------------------------------------------
+   Reviews (table: silver_reviews - add this table to the model first)
+   --------------------------------------------------------------------- */
+
+Avg Review Score = AVERAGE(silver_reviews[review_score])
+
+% Negative Reviews =
+DIVIDE(
+    CALCULATE(COUNTROWS(silver_reviews), silver_reviews[review_score] <= 2),
+    COUNTROWS(silver_reviews)
+)
+
+/* ---------------------------------------------------------------------
+   Formatting notes:
+   - Currency: Total Sales, AOV, Total Freight, Sales YTD/MTD/PY,
+     Total Payment Value
+   - Percentage: Freight % of Revenue, Sales Growth %, Sales MoM %,
+     Late Delivery Rate, Repeat Customer Rate, % Credit Card Payments,
+     % Negative Reviews
+   - General number: Total Orders, Total Items Sold, Total Customers,
+     Avg Delivery Days, Avg Late Days, Avg Installments, Avg Review Score
+   --------------------------------------------------------------------- */
