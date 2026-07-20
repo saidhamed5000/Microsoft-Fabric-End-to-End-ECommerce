@@ -550,11 +550,10 @@ Data Analyst | Power BI Developer | Microsoft Fabric Developer
 
 ### Connect with Me
 
-- 💼 LinkedIn: https://www.linkedin.com/in/YOUR-LINK
-- 💻 GitHub: https://github.com/saidhamed5000
-- 🌐 Portfolio: YOUR-PORTFOLIO-LINK
-- 📧 Email: YOUR-EMAIL
-
+💼 LinkedIn: https://www.linkedin.com/in/said-hamed
+💻 GitHub: https://github.com/saidhamed5000
+🌐 Portfolio: https://saidhamed.my.canva.site/said-hamed-portfolio
+📧 Email: saidhamed5000@gmail.com said.hamed.sa87@gmail.com
 ---
 
 Thank you for visiting this repository.
