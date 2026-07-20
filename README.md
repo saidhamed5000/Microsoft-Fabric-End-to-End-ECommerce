@@ -333,9 +333,7 @@ The dashboard tracks these core business KPIs end to end:
 - 🚚 Average Shipping Cost (Freight)
 - 📦 Average Delivery Days
 - ⭐ Average Review Score
-- 🔁 Repeat Customer Rate
-- 💳 % Credit Card Payments
-- ⏰ Late Delivery Rate
+
 
 ---
 
@@ -347,8 +345,7 @@ The report consists of **4 pages**, each covering a distinct area of the busines
 
 High-level snapshot of the whole business for quick decision-making.
 
-- **KPIs:** Total Sales · Total Orders · AOV · Total Customers
-- **Visuals:** Sales trend line chart, top categories bar chart, year slicer
+
 
 ![Home](https://github.com/saidhamed5000/Microsoft-Fabric-End-to-End-ECommerce/raw/main/Assets/Dashboard/Dashboard.png)
 
@@ -356,8 +353,7 @@ High-level snapshot of the whole business for quick decision-making.
 
 Customer behavior and geographic distribution of revenue and buyers.
 
-- **KPIs:** Total Customers · Repeat Customer Rate
-- **Visuals:** Customer density map by state, revenue-by-state map, customer distribution donut
+
 
 ![Customer & Geo Insights](https://github.com/saidhamed5000/Microsoft-Fabric-End-to-End-ECommerce/raw/main/Assets/Dashboard/Dashboard%202.png)
 
@@ -365,14 +361,13 @@ Customer behavior and geographic distribution of revenue and buyers.
 
 Delivery performance, seller efficiency, and payment behavior.
 
-- **KPIs:** Avg Delivery Days · Late Delivery Rate · Avg Installments
-- **Visuals:** Late Delivery Rate by state, seller performance table, payment type breakdown
+
 
 ![Operations & Logistics](https://github.com/saidhamed5000/Microsoft-Fabric-End-to-End-ECommerce/raw/main/Assets/Dashboard/Dashboard%203.png)
 
 ### 📋 4. Detailed Data Records
 
-Drill-through / detailed grid view of the underlying transactional data for auditing and ad-hoc analysis.
+
 
 - **Visuals:** Detailed table with order-level fields, filters and slicers for granular exploration
 
@@ -551,9 +546,16 @@ Data Analyst | Power BI Developer | Microsoft Fabric Developer
 ### Connect with Me
 
 💼 LinkedIn: https://www.linkedin.com/in/said-hamed
+
 💻 GitHub: https://github.com/saidhamed5000
+
 🌐 Portfolio: https://saidhamed.my.canva.site/said-hamed-portfolio
-📧 Email: saidhamed5000@gmail.com said.hamed.sa87@gmail.com
+
+📧 Email: saidhamed5000@gmail.com
+     
+     said.hamed.sa87@gmail.com
+
+     
 ---
 
 Thank you for visiting this repository.
