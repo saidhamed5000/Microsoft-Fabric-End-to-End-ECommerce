@@ -1,3 +1,4 @@
+<img width="1536" height="290" alt="Screenshot 2026-07-21 014124" src="https://github.com/user-attachments/assets/6200eee8-8b80-40ec-b14f-19b2b713d19a" />
 # 🚀 Enterprise End-to-End Analytics Platform using Microsoft Fabric
 
 ### Medallion Architecture | Lakehouse | Data Warehouse | Semantic Model | Power BI
